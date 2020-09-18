@@ -14,9 +14,9 @@ Ref: https://www.terraform.io/intro/index.html
 
 ### `main.tf`
 Define all modules or resource that we use to generate the infrastructure that we need. For ECS cluster I don't use only main.tf file, instead I use one tf file regarding the resource I have to create, for example:
-`alb.tf` 		===> Will create application load balancer
-`security.tf`	===> Will create security group for alb and service
-`ecs.tf`		===> Will create ecs cluster
+`alb.tf` 		===> will create application load balancer
+`security.tf`	===> will create security group for alb and service
+`ecs.tf`		===> wll create ecs cluster
 
 ### `variables.tf`
 Declare all variables to use in `main.tf`.

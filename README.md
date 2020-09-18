@@ -13,7 +13,7 @@ Ref: https://www.terraform.io/intro/index.html
 ## Files structure
 
 ### `main.tf`
-Define all resources that we use to generate the infrastructure that we need. For ECS cluster I don't use only main.tf file, instead I use one tf file regarding the resource I have to create, for example:
+Define all resources that we use to generate the infrastructure that we need. For ECS cluster I don't use main.tf file, instead I use one tf file regarding the resource I have to create, for example:
 `alb.tf` 		===> will create application load balancer
 `security.tf`	===> will create security group for alb and service
 `ecs.tf`		===> wll create ecs cluster

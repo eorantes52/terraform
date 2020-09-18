@@ -1,0 +1,15 @@
+variable "aws_region" {}
+variable "function_name" {}
+variable "function_filename" {}
+variable "unction_handler" {}
+variable "lambda_role_arn" {}
+variable "function_runtime" {}
+variable "function_timeout" {}
+variable "function_memory_size" {}
+variable "source_code_hash" {}
+variable "function_layer_arn" {}
+variable "subnets_private_id" {}
+variable "security_group_id" {}
+variable "env_var_1" {}
+variable "env_var_2" {}
+variable "env_var_3" {}

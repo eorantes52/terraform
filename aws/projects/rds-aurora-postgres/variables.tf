@@ -1,0 +1,13 @@
+variable "aws_region" {}
+variable "vpc_id" {}
+variable "rds_security_group_name" {}
+variable "db_port" {}
+variable "private_cidr" {}
+variable "rds_name" {}
+variable "subnets_private_id" {}
+variable "engine" {}
+variable "azones" {}
+variable "db_name" {}
+variable "master_username" {}
+variable "rds_psswrd" {}
+variable "engine_mode" {}
